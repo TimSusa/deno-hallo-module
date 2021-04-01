@@ -1,2 +1,11 @@
 # deno-hallo-module
-just a simple deno module to test loading via "raw.githubusercontent.com"
+Just a simple module for making personal tests loading a simple deno module via
+
+```
+import hello from 'https://raw.githubusercontent.com/timsusa/deno-hallo-module/master/module.ts'
+
+module('you');
+``` 
+
+
+
